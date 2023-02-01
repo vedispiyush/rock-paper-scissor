@@ -1,0 +1,406 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, #0E1A44 0%, rgba(52, 96, 250, 0.68) 100%);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1200px;
+}
+
+#container {
+    height: 175px;
+    width: 700px;
+    border: solid;
+    border-radius: 3%;
+    border-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 20px 0px 0px 400px;
+}
+
+#one {
+    height: 45px;
+    width: 200px;
+    border: none;
+    position: absolute;
+    top: 5px;
+    text-align: start;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#two {
+    height: 45px;
+    width: 200px;
+    border: none;
+    position: absolute;
+    top: 50px;
+    text-align: start;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#three {
+    height: 45px;
+    width: 200px;
+    border: none;
+    position: absolute;
+    top: 95px;
+    text-align: start;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#value {
+    width: 200px;
+    height: 150px;
+    border: solid;
+    border-radius: 5%;
+    border-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#zero {
+    width: 90px;
+    height: 70px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    text-align: center;
+    font-size: 70px;
+}
+
+#result {
+    height: 250px;
+    width: 700px;
+    border: none;
+    border-color: black;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+#you1 {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+#pc1 {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}
+
+#win {
+    position: absolute;
+    top: 80px;
+    left: 272px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h3 {
+    position: absolute;
+    top: 90px;
+    left: 270px;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+#playagain {
+    position: absolute;
+    bottom: 40px;
+    left: 270px;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10%;
+    border-color: rgb(255, 255, 255);
+    color: #6B6B6B;
+    background-color: rgb(255, 255, 255);
+}
+
+#you {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: black;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+#you2 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+#pc {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: black;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+#pc2 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: none;
+
+}
+
+
+#big {
+    height: 300px;
+    width: 400px;
+    border: none;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 500px;
+    display: block;
+}
+
+
+
+#paper {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    background-color: #CC00FF;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35)); 
+}
+#paper:hover {
+    box-shadow: 0px 0px 0px 20px #031e8063;
+  }
+
+
+#pap {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 1px;
+}
+
+.paper1 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+    /*display: inline-block;*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#stone {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #FFD600;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35)); 
+}
+#stone:hover {
+    box-shadow: 0px 0px 0px 20px #031e8063;
+  }
+
+
+.stone1 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border: none;
+    margin: 9px 9px 9px 9px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#sci {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: #FF4370;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35)); 
+}
+#sci:hover {
+    box-shadow: 0px 0px 0px 20px #031e8063;
+  }
+  
+
+.sci1 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border: none;
+    margin: 9px 9px 9px 9px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#para {
+    position: absolute;
+    bottom: -10px;
+    left: 165px;
+    color: rgb(255, 255, 255);
+    display: none;
+    font-size: 20px;
+
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#rules {
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgba(52, 96, 250, 0.68);
+    border-color: rgb(255, 255, 255);
+
+}
+#rules:hover{
+    background-color: #0E1A44;
+}
+
+#rule1 {
+    height: 400px;
+    width: 300px;
+    border: solid;
+    border-width: 8px;
+    border-color: #465BA7;
+    position: absolute;
+    background-color: #08143E;
+    bottom: 50px;
+    right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: none;
+}
+
+#cross {
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-color: #465BA7;
+    border-width: 8px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    background-color: rgb(224, 5, 5);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#cross:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px 2px #465BA7;
+
+
+}
+
+ul,
+li {
+    list-style-type: square;
+    color: #FFD600;
+}
+
+span {
+    margin-top: 10px;
+    color: white;
+}
+
+#pst {
+    width: 200px;
+    height: 15px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+#psc {
+    width: 200px;
+    height: 15px;
+    position: absolute;
+    /*transform: rotate(90deg);*/
+    top: 150px;
+    left: 10px;
+    transform: rotate(45deg);
+}
+
+#scst {
+    width: 200px;
+    height: 15px;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    transform: rotate(-45deg);
+}

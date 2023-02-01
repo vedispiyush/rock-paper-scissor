@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" href="rps.png" type="image/icon type">
+    <link rel="stylesheet" href="rps.css">
+</head>
+
+<body>
+
+
+
+    <!--score section-->
+    <div id="container">
+        <div id="one">ROCK
+
+        </div>
+        <div id="two">PAPER
+
+        </div>
+        <div id="three">SCISSORS
+
+        </div>
+        <div id="value">Your<br>Score
+            <div id="zero">0
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--result area -->
+
+
+    <div id="result">
+        <h4 id="you1">You Picked</h4>
+        <h4 id="pc1">PC Picked</h4>
+        <h3>AGAINST PC</h3>
+        <div id="win">YOU WON</div>
+        <div id="you">
+            <button id="you2"></button>
+        </div>
+        <div id="pc">
+            <button id="pc2"></button>
+        </div>
+        <input type="button" id="playagain" value="Play Again" onclick="play()">
+    </div>
+
+
+
+
+    <!-- play area-->
+
+    <div id="big">
+        <img src="line.png" id="pst">
+        <img src="line.png" id="psc">
+        <img src="line.png" id="scst">
+
+        <div id="paper" class="style">
+            <button class="paper1" id="p"><img src="paper.png"
+                    style="position: absolute; top: 0px; left: 0px;"></button>
+
+        </div>
+        <div id="stone" class="style">
+            <button class="stone1" id="st"><img src="rock.png"></button>
+
+        </div>
+        <div id="sci" class="style">
+            <button class="sci1" id="sc"><img src="scissors.png" alt=""></button>
+
+        </div>
+
+        <p id="para">TIE,Try Again</p>
+    </div>
+
+
+
+
+    <!--rule block -->
+
+    <div id="rule1">
+        <p style="text-align: center;">Game Rules</p>
+        <input type="button" id="cross" onclick="cut()" value=x>
+        <ul>
+            <li><span>Rock beats scissors, scissors beat paper, and paper beats rock.</span></li><br>
+            <li><span>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper,
+                    scissors.”</span></li><br>
+            <li><span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time”</span></li><br>
+            <li><span>If both players lay down the same hand, each player lays down another hand</span></li><br>
+        </ul>
+
+    </div>
+    <button id="rules" onclick="rule()">RULES</button>
+
+    <script src="rps.js"></script>
+</body>
+
+</html>
